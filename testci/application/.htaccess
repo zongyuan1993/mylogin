@@ -1,0 +1,4 @@
+#Deny from all
+RewriterEngine on
+RewriteCond $1 !^(index\.php|img|js|css|fonts|upload)
+RewriteRule ^(.*)$ index.php/$1[L]

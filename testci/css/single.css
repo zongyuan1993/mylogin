@@ -1,0 +1,64 @@
+#bigart{
+    width: 90%;
+    /*height: 746px;*/
+    margin-left:5%;
+    /*background: #cccccc;*/
+}
+#bigart h3{
+    height: 52px;
+    /*background: #ff0000;*/
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    font-size: 1.5em;
+}
+#bigart img{
+    width:100%;
+}
+#arc1{
+    width: 100%;
+    height: 47px;
+    padding: 10px 0px;
+    border: 1px dashed rgba(0, 0, 0, 0.61);
+    border-left: none;
+    margin-top: 5px;
+    border-right: none;
+}
+#arc1 ul{
+    float: left;
+}
+#arc1 li{
+    float: left;
+    /*margin-left:20px;*/
+}
+#arc1 a{
+    /*color: #000;*/
+    padding-left: 20px;
+}
+#arc1 small{
+
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+#arc1 span{
+    float: right;
+    vertical-align: middle;
+    color: #000;
+    font-size:14px;
+}
+#arc1 li:nth-child(1) small{
+    background: url(../img/img-sprite.png)no-repeat -345px -18px;
+}
+#arc1 li:nth-child(2) small{
+    background: url(../img/img-sprite.png)no-repeat -370px -18px;
+}
+#arc1 li:nth-child(3) small{
+    background: url(../img/img-sprite.png)no-repeat -400px -18px;
+}
+#arc1 li:nth-child(4) small{
+    background: url(../img/img-sprite.png)no-repeat -425px -18px;
+}

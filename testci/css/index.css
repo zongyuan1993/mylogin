@@ -1,0 +1,418 @@
+/*ideas开始*/
+#ideas{
+    width: 90%;
+    height: 440px;
+    margin-left:5%;
+}
+#ideas .font{
+    float: left;
+    padding: 9rem 0 0;
+    width: 46%;
+}
+
+#ideas .font h2{
+    color: #575757;
+    font-size: 3.5rem;
+}
+#ideas .font p{
+    color: #8e8e8e;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    width: 80%;
+    padding: 0.5rem 0 0;
+}
+#ideas .computer{
+    width: 40%;
+    position: absolute;
+    top:50px;
+    right: 5%;
+}
+#ideas .computer img{
+    width: 100%;
+}
+@media (max-width: 1280px){
+    #ideas .font {
+        padding: 6rem 0 0;
+    }
+
+    #ideas .font h2 {
+        font-size: 3rem;
+    }
+
+    #ideas .font p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 0.4rem 0 0;
+    }
+}
+    @media (max-width: 768px){
+    #ideas .font{
+        padding: 4rem 0 0;
+    }
+    #ideas .font h2{
+        font-size: 2rem;
+    }
+    #ideas .font p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 0.4rem 0 0;
+    }
+}
+@media (max-width: 480px){
+    #ideas .font{
+        padding: 3.5rem 0 0;
+    }
+    #ideas .font h2{
+        width: 193px;
+        font-size: 1.3rem;
+    }
+    #ideas .font p{
+        width: 154px;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding: 0.2rem 0 0;
+    }
+    #ideas .computer img{
+        width: 168px;
+        height: 132px;
+    }
+}
+/*ideas结束*/
+/*works开始*/
+#works{
+    width: 90%;
+    height: 700px;
+   padding-top:50px;
+    margin-left:5%;
+    border-top: 1px #ccc solid;
+}
+#work1{
+    height: 46px;
+
+}
+#work1 h3{
+    float: left;
+    color: #a2a3a3;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3em;
+}
+#work1 ul{
+    float: right;
+    margin-top: 10px;
+}
+#work1 li{
+    float: left;
+}
+#work1 li span{
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #279f7c;
+    font-size: 1.1em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-weight: 700;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+#work1 li span:hover{
+    border-radius: 10px;
+    background: #279f7c;
+    color: #ffffff;
+}
+#work1 .sp1{
+    border-radius: 10px;
+    background: #279f7c;
+    color: #ffffff;
+}
+#zhaopian{
+    height: 570px;
+    /*background: #ffff00;*/
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+
+}
+#zhaopian ul{
+    margin-left: 35px;
+/*照片居中*/
+}
+#zhaopian li{
+    /*照片左浮动*/
+    float: left;
+    margin:20px;
+}
+.zhaopian1{
+    width: 330px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.zhaopian1 img{
+    /*照片大小固定*/
+    width: 330px;
+    height: 240px;
+
+
+}
+.zhaopian2{
+    width: 330px;
+    height: 240px;
+    /*background-color: #0f0;*/
+    background:rgba(39,159,124,.6);
+    position: absolute;
+    top:0;
+    /*left: -330px;*/
+    -webkit-transform: translateX(-330px);
+    /*-webkit-transform: translateX(20px);*/
+    -webkit-transition: all .5s ease-in;
+
+}
+.zhaopian1:hover .zhaopian2{
+    -webkit-transform: translateX(0);
+}
+/*.zhaopian2:mask{*/
+    /**/
+/*}*/
+.zhaopian3{
+    width: 150px;
+    height: 100px;
+    /*background: #cccccc;*/
+    position: absolute;
+    top:50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left:-75px;
+}
+.p1{
+    width: 150px;
+    height: 50px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.p2{
+    width: 150px;
+    height: 50px;
+    /*background: #00ff00;*/
+    border-radius:5px;
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    position: relative;;
+}
+/*works结束*/
+/*services开始*/
+    #services{
+        width: 90%;
+        margin-left:5%;
+        height: 450px;
+        /*background: #ffff00;*/
+        border-top: 1px #ccc solid;
+        clear: both;
+    }
+    #services1{
+        height: 88px;
+        /*background: #00ff00;*/
+        margin-top: 50px;
+    }
+    #serleft{
+        float: left;
+        height: 46px;
+        color: #a2a3a3;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 3em;
+    }
+    #serright{
+        float: right;
+        color: #8e8e8e;
+        font-size: 1.1em;
+        line-height: 1.8em;
+        width: 40%;
+        padding: 0.5em 0 0;
+    }
+    #servicer2{
+        height: 236px;
+        /*background: #ff0000;*/
+        margin-top: 40px;
+        clear: both;;
+    }
+    #s1{
+        width: 30%;
+        height: 236px;
+        float: left;
+        /*background: #000;*/
+
+    }
+    #s3{
+        width: 30%;
+        height: 236px;
+        float: right;
+        /*background: #ff0000;*/
+    }
+    #s2{
+        width: 30%;
+        height: 236px;
+        float: left;
+        margin-left:5%;
+        /*background: #00ff00;*/
+    }
+    #servicer2 img{
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        height: auto;
+       cursor:pointer;
+    }
+    #servicer2 h5{
+        text-align: center;
+        color: #323232;
+        font-size: 1.3em;
+        font-weight: 700;
+        padding: 0.5em 0;
+    }
+    #servicer2.p{
+        color: #8e8e8e;
+        font-size: 1.1em;
+        line-height: 1.8em;
+        width: 83%;
+        margin: 0 auto;
+    }
+
+/*services结束*/
+
+/*team开始*/
+#team{
+    width: 90%;
+    height: 550px;
+    margin-left:5%;
+    margin-top:40px;
+    /*background: #FF0;*/
+    border-top: 1px #ccc solid;
+    position: relative;
+
+}
+#team1{
+    height: 88px;
+    /*background: #00ff00;*/
+    margin-top: 50px;
+}
+#team1 .teamleft{
+    float: left;
+    height: 46px;
+    color: #a2a3a3;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3em;
+}
+#team1 .teamright{
+    float: right;
+    color: #8e8e8e;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    width: 40%;
+    padding: 0.5em 0 0;
+}
+#team2{
+    height: 380px;
+    /*background: #ff0000;*/
+    clear:both;
+}
+#team2 .t1{
+    width: 30%;
+    height: 380px;
+    float: left;
+    /*background: #CCCCCC;*/
+    position: relative;
+
+}
+#team2 .t3{
+    width: 30%;
+    height: 380px;
+    float: right;
+    /*background: #CCCCCC;*/
+    position: relative;
+}
+#team2 .t2{
+    width: 30%;
+    height: 380px;
+    float: left;
+    margin-left:5%;
+    /*background: #cccccc;*/
+    position: relative;
+}
+#team2 img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    cursor:pointer;
+}
+#team2 h4{
+    color: #323232;
+    font-size: 1.7em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 0.5em 0;
+    text-align: center;
+}
+#team h5{
+    color: #323232;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+#team p{
+    color: #8e8e8e;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em 0;
+    text-align: center;
+}
+#team2 ul{
+    position: absolute;
+    left:50%;
+    margin-left:-60px;;
+
+
+}
+#team2 li{
+    margin-left:10px;
+    width: 33px;
+    height: 33px;
+    float: left;
+    cursor: pointer;
+}
+#team2 li:nth-child(1){
+
+    background: url(../img/img-sprite.png) -6px -2px no-repeat;
+    -webkit-transition: all 0.5s ease-in;
+}
+#team2 li:nth-child(1):hover{
+
+    background: url(../img/img-sprite.png) -6px -41px no-repeat;
+
+}
+#team2 li:nth-child(2){
+    background: url(../img/img-sprite.png) -41px -2px no-repeat;
+    -webkit-transition: all 0.5s ease-in;
+}
+#team2 li:nth-child(2):hover{
+    background: url(../img/img-sprite.png) -41px -41px no-repeat;
+}
+#team2 li:nth-child(3){
+    background: url(../img/img-sprite.png) -80px -2px no-repeat;
+    -webkit-transition: all 0.5s ease-in;
+}
+#team2 li:nth-child(3):hover{
+    background: url(../img/img-sprite.png) -80px -41px no-repeat;
+}
+/*#team2 a{*/
+    /*cursor: pointer;*/
+/*}*/
+/*team结束*/
